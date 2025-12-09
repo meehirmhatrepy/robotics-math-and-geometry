@@ -1,9 +1,14 @@
-📚 Robotics Math and Geometry
+# 🚀 Robotics Math & Geometry
 
-This repository contains three learning modules covering the essential mathematical tools used in 3D geometry, computer vision, and transformations.
-Each module is implemented as a Jupyter Notebook with explanations, formulas, and interactive visualizations.
+A polished, modern, and professional repository covering the **core mathematical foundations** used in robotics, 3D vision, SLAM, and graphics.
 
-📁 Folder Structure
+This repo contains **three high‑quality, interactive Jupyter notebooks**, each focused on one pillar of robotics math:
+
+---
+
+## 📁 Repository Structure
+
+```
 robotics-math-and-geometry/
 │
 ├── README.md
@@ -16,177 +21,125 @@ robotics-math-and-geometry/
 │
 └── camera_geometry/
     └── camera_geometry.ipynb
+```
 
-📘 1. Linear Algebra Notebook
+---
 
-location: linear_algebra/linear_algebra.ipynb
+# 📘 1. Linear Algebra
 
-Covers the fundamentals required for 3D geometry and transformations:
+**Path:** `linear_algebra/linear_algebra.ipynb`
 
-✅ Included Topics
+This notebook covers the mathematical fundamentals needed for robotics:
 
-Vectors and operations
+### ✔ Vector Operations  
+- Dot product  
+- Cross product  
+- Norms (L2)  
+- Normalization  
 
-dot product
+### ✔ Matrix Operations  
+- Matrix multiplication  
+- Determinant  
+- Transpose  
+- Inverse  
 
-cross product
+### ✔ Decompositions  
+- QR decomposition (Gram–Schmidt)  
+- SVD  
+- Eigenvalues (intro)  
 
-vector norm and normalization
+### ✔ Visualizations  
+- 3D vector plots  
+- Projection demos  
+- Linear transformations in 2D & 3D  
 
-Matrices
+---
 
-matrix multiplication
+# 🔷 2. SE(3) Transformations
 
-determinants & geometric meaning
+**Path:** `se3_transforms/se3_transforms.ipynb`
 
-inverse, transpose, orthogonal matrices
+Covers the full theory and implementation of rigid body transforms.
 
-Decompositions
+### ✔ Rotations  
+- Rotation matrices Rx, Ry, Rz  
+- SO(3) properties  
+- Euler angles (ZYX order)  
+- Gimbal lock explanation  
 
-QR decomposition (Gram–Schmidt)
+### ✔ Quaternions  
+- Quaternion definition  
+- Rotation matrix ↔ quaternion  
+- Normalization, unit quaternions  
 
-Singular Value Decomposition (SVD)
+### ✔ SE(3)  
+- 4×4 transformation matrices  
+- Composition of transforms  
+- Inverse transforms  
+- Homogeneous coordinates  
 
-Interactive widgets for
+### ✔ Applications  
+- Apply SE(3) to 3D point clouds  
+- Visualize transforms with 3D plots  
+- ipywidgets sliders for rotations & translations  
 
-visualizing vector addition
+---
 
-dot product as projection
+# 🎯 3. Camera Geometry
 
-cross product direction
+**Path:** `camera_geometry/camera_geometry.ipynb`
 
-matrix transformations
+Covers the mathematical model used in computer vision & robotics.
 
-🎯 Purpose
+### ✔ Camera Intrinsics  
+- Focal length  
+- Principal point  
+- Camera matrix K  
 
-You learn the math tools needed before moving into 3D rotations and camera models.
+### ✔ Projection & Backprojection  
+- 3D → 2D projection  
+- Depth backprojection  
+- Ray casting  
 
-📘 2. SE(3) Transformations Notebook
+### ✔ Distortion Models  
+- Radial distortion  
+- Tangential distortion  
+- Undistortion using OpenCV  
 
-location: se3_transforms/se3_transforms.ipynb
+### ✔ Visualizations  
+- Image plane diagrams  
+- Pose + projection demos  
+- Camera frustums in 3D  
 
-Explains how 3D rotations and translations are represented and combined.
+---
 
-✅ Included Topics
+# 🌟 Why This Repository Is Valuable
 
-Rotation matrices
+- Demonstrates **real robotics foundations**  
+- Shows **clear mathematical understanding**  
+- Each notebook has:
+  - Explanations  
+  - Equations  
+  - Code  
+  - Visualizations  
+  - Interactive widgets  
 
-Rx, Ry, Rz
+Perfect for showcasing skills to employers for roles in:
 
-properties (orthogonality, determinant)
+- Robotics Perception  
+- Computer Vision  
+- SLAM / 3D Reconstruction  
+- Autonomous Systems  
+- AR/VR Geometry  
 
-Euler angles
+---
 
-conversion ↔ rotation matrices
+# 📄 License
 
-Quaternions
+MIT License
 
-conversion ↔ rotation matrices
+---
 
-advantages over Euler angles
+# 🙌 Contribution
 
-SE(3)
-
-4×4 transformation matrices
-
-combining rotation + translation
-
-inverse transform
-
-applying transforms to points
-
-homogeneous coordinates
-
-Interactive 3D visualization of
-
-rotated point clouds
-
-transformed coordinate frames
-
-effect of changing roll/pitch/yaw/translation
-
-🎯 Purpose
-
-You learn how to represent orientation and position in space, and how to transform 3D points.
-
-📘 3. Camera Geometry Notebook
-
-location: camera_geometry/camera_geometry.ipynb
-
-Covers the mathematical model of a pinhole camera.
-
-✅ Included Topics
-
-Camera intrinsics
-
-focal length
-
-principal point
-
-pixel scaling
-
-building the intrinsic matrix
-
-Projection
-
-3D → 2D projection
-
-homogeneous coordinates
-
-perspective divide
-
-Backprojection
-
-using depth to recover 3D points
-
-Distortion
-
-radial & tangential distortion
-
-using OpenCV to undistort images
-
-Interactive visualizations
-
-sliders to change focal length
-
-3D point projection demo
-
-depth → point cloud generation
-
-🎯 Purpose
-
-You learn how cameras see the world and how 3D information becomes 2D images.
-
-📦 Requirements
-
-Python 3.8+
-
-NumPy
-
-Matplotlib
-
-OpenCV (for camera geometry)
-
-ipywidgets (for interactivity)
-
-Jupyter Notebook/Lab
-
-✔ How to Use
-
-Clone the repo and open any notebook:
-
-git clone https://github.com/meehirmhatrepy/robotics-math-and-geometry.git
-cd robotics-math-and-geometry
-jupyter notebook
-
-📌 Goal of This Repository
-
-To build a strong, practical foundation in:
-
-linear algebra for geometry
-
-3D transformations
-
-camera projection models
-
-with simple explanations + code + interactive visualizations.
+Issues and improvements welcome.

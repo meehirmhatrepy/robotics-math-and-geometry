@@ -132,14 +132,3 @@ Perfect for showcasing skills to employers for roles in:
 - Autonomous Systems  
 - AR/VR Geometry  
 
----
-
-# 📄 License
-
-MIT License
-
----
-
-# 🙌 Contribution
-
-Issues and improvements welcome.

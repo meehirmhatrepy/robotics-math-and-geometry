@@ -5,26 +5,6 @@ This repo is designed for hands-on learning with **Jupyter notebooks**, covering
 
 ---
 
-## 📂 Repository Structure
-
-
-
-robotics-math-and-geometry/
-│
-├── README.md
-│
-├── camera_geometry/
-│ └── camera_geometry.ipynb
-│
-├── linear_algebra/
-│ └── linear_algebra.ipynb
-│
-└── se3_transforms/
-└── se3_transforms.ipynb
-
-
----
-
 # 🧠 Overview of Notebooks
 
 ## 📸 1. `camera_geometry/camera_geometry.ipynb`

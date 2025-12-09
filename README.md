@@ -1,7 +1,7 @@
 # 🤖 Robotics Math & Geometry  
-A clean, beginner-friendly, notebook-based repository covering the essential mathematical tools behind **robotics, SLAM, 3D vision, and geometric computing**.
+A clean, beginner-friendly, notebooks-based repository covering the essential mathematical tools.
 
-This repo is designed for hands-on learning with **fully explained Jupyter notebooks**, covering everything from camera geometry → SE(3) transforms → linear algebra foundations.
+This repo is designed for hands-on learning with **Jupyter notebooks**, covering everything from camera geometry → SE(3) transforms → linear algebra foundations.
 
 ---
 
@@ -109,7 +109,7 @@ jupyter nbextension enable --py widgetsnbextension
 
 Clone the repo:
 
-git clone https://github.com/<your_username>/robotics-math-and-geometry.git
+git clone https://github.com/meehirmhatrepy/robotics-math-and-geometry.git
 cd robotics-math-and-geometry
 
 
